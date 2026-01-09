@@ -1,6 +1,8 @@
-/*---Exercise 1: Database & Collection Creation---*/
+/*---Switch Database---*/
 
 db = db.getSiblingDB("examDB");
+
+/*---Exercise 1: Database & Collection Creation---*/
 
 db.students.insertOne({
     name: "Manan Chovatiya",
@@ -96,3 +98,4 @@ db.students.insertOne({
     name: "Dhruvi", 
     enroll: 103 
 });
+
