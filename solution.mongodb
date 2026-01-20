@@ -8,12 +8,14 @@ db.students.insertOne({
     name: "Manan Chovatiya",
     department: "IT",
     semester: 5,
+    mobile: "9825611222"
 });
 
 db.students.insertOne({
     name : "Neel Mandanka", 
     department : "EC", 
     semester : 5, 
+    mobile: "9825611222"
 });
 
 /*---Exercise 2: Insert Document with Multiple Fields---*/
@@ -98,4 +100,5 @@ db.students.insertOne({
     name: "Dhruvi", 
     enroll: 103 
 });
+
 
